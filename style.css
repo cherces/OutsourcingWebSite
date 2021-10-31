@@ -25,7 +25,7 @@ body {
 .header {
     position: relative;
     margin: 0 auto;
-    padding: 105px 182px;
+    padding: 105px 182px 182px;
     width: 1440px;
     height: 820px;
 }
@@ -105,9 +105,97 @@ body {
 
 
 .page {
+    position: relative;
+    margin: 0 auto;
     width: 1440px;
 }
-
+.page__services {
+    width: 1440px;
+    height: 2660px;
+}
+.services__container {
+    width: 1440px;
+    height: 2660px;
+}
+.services__body {
+    width: 1440px;
+    height: 2660px;
+}
+.services__body__title {
+    width: 1440px;
+    height: 204px;
+    padding: 76px 520px 77px 519px ;
+}
+.services__body__title h2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+}
+.what-we-do__container {
+    display: flex;
+    height: 616px;
+    align-items: flex-start;
+}
+.what-we-do__body {
+    width: 522px;
+    height: 367px;
+    margin-top: 151px;
+    margin-left: 182px;
+    margin-bottom: 98px;
+}
+.what-we-do__title {
+    width: 216px;
+    height: 44px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+}
+.what-we-do__text {
+    width: 522px;
+    height: 93px;
+    margin-top: 32px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+}
+.what-we-do__button {
+    width: 246px;
+    height: 57px;
+    margin-top: 33px;
+}
+.what-we-do__button button {
+    width: 246px;
+    height: 57px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #FA5D7C;
+}
+.what-we-do__subtext {
+    width: 516px;
+    height: 98px;
+    margin-top: 64px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: #727272;
+}
+.what-we-do__image {
+    width: 928px;
+    height: 616px;
+}
 
 .footer {
     width: 1440px;
