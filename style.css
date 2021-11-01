@@ -262,6 +262,143 @@ body {
 }
 
 
+.page__codex {
+    width: 1440px;
+    height: 727px;
+    background-image: url("/images/background.svg");
+}
+.codex__container {
+    width: 1440px;
+    height: 727px;
+}
+.codex__body {
+    display: flex;
+    flex-direction: column;
+}
+.codex__title {
+    width: 150px;
+    height: 55px;
+    margin: 80px 648px 30px 646px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 50px;
+    display: flex;
+}
+.codex__slogan {
+    width: 810px;
+    height: 74px;
+    margin-left: 325px;
+    margin-right: 321px;
+    margin-top: 27px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.codex__points__body {
+    width: 2000px;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+}
+.codex__previous__point {
+    width: 584px;
+    height: 200px;
+    margin-top: 145px;
+    margin-right: 127px;
+    background-color: #727272;
+
+}
+.codex__previous__text {
+    width: 435px;
+    height: 65px;
+    margin: 44px 78px 76px 75px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+.codex__previous__paragraph {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #6D6D6D;
+}
+.codex__left__img {
+    margin-top: 233px;
+}
+.codex__point {
+    width: 798px;
+    height: 247px;
+    margin: 120px 54px 123px 54px;
+    background-color: #727272;
+}
+.codex__text {
+    width: 645px;
+    height: 90px;
+    margin-top: 55px;
+    margin-right: 79px;
+    margin-left: 76px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 48px;
+    text-align: center;
+}
+.codex__paragraph {
+    width: 646px;
+    height: 16px;
+    margin-top: 44px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #6D6D6D;
+}
+.codex__right__img {
+    margin-top: 233px;
+}
+.codex__next__point {
+    width: 584px;
+    height: 200px;
+    margin-top: 145px;
+    margin-left: 111px;
+    background-color: #727272;
+}
+.codex__next__text {
+    width: 435px;
+    height: 65px;
+    margin: 44px 78px 76px 75px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+.codex__next__paragraph {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #6D6D6D;
+}
+
 .footer {
     width: 1440px;
     height: 216px;
