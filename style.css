@@ -29,6 +29,8 @@ body {
     width: 1440px;
     height: 820px;
 }
+
+
 .header__title__container {
     width: 1076px;
     height: 155px;
@@ -109,6 +111,8 @@ body {
     margin: 0 auto;
     width: 1440px;
 }
+
+
 .page__services {
     width: 1440px;
     height: 2660px;
@@ -134,46 +138,44 @@ body {
     line-height: 50px;
     text-align: center;
 }
-.what-we-do__container {
+
+.services__item__container {
     display: flex;
     height: 616px;
     align-items: flex-start;
 }
-.what-we-do__body {
+.services__item__body {
     width: 540px;
     height: 367px;
     margin-top: 151px;
     margin-bottom: 98px;
     z-index: 2;
 }
-.what-we-do__title {
+.services__item__title {
     width: 216px;
     height: 44px;
-    margin-left: 182px;
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
     line-height: 43px;
 }
-.what-we-do__text {
+.services__item__text {
     width: 535px;
     height: 93px;
     margin-top: 32px;
-    margin-left: 182px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 31px;
 }
-.what-we-do__button {
+.services__item__button {
     width: 246px;
     height: 57px;
     margin-top: 33px;
-    margin-left: 182px;
 }
-.what-we-do__button button {
+.services__item__button button {
     width: 246px;
     height: 57px;
     font-family: Source Sans Pro;
@@ -184,11 +186,10 @@ body {
     color: #FFFFFF;
     background-color: #FA5D7C;
 }
-.what-we-do__subtext {
+.services__item__subtext {
     width: 530px;
     height: 98px;
     margin-top: 64px;
-    margin-left: 182px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 300;
@@ -196,15 +197,70 @@ body {
     line-height: 23px;
     color: #727272;
 }
-.what-we-do__image {
+.services__item__image {
     width: 928px;
     height: 616px;
     z-index: 1;
 }
-.what-we-do__image img {
+.services__item__image img {
     width: 928px;
     height: 616px;
 }
+
+.what-we-do__title {
+    margin-left: 182px;
+}
+.what-we-do__text {
+    margin-left: 182px;
+}
+.what-we-do__button {
+    margin-left: 182px;
+}
+.what-we-do__subtext {
+    margin-left: 182px;
+}
+
+.corporate-websites__title {
+    text-align: right;
+}
+.corporate-websites__text {
+    text-align: right;
+}
+.corporate-websites__button {
+    margin-left: auto;
+}
+.corporate-websites__subtext {
+    text-align: right;
+}
+
+.social-media-promotion__title {
+    width: 550px;
+    margin-left: 182px;
+}
+.social-media-promotion__text {
+    margin-left: 182px;
+}
+.social-media-promotion__button {
+    margin-left: 182px;
+}
+.social-media-promotion__subtext {
+    margin-left: 182px;
+}
+
+.services-complex-projects__title {
+    width: 475px;
+    text-align: right;
+}
+.services-complex-projects__text {
+    text-align: right;
+}
+.services-complex-projects__button {
+    margin-left: auto;
+}
+.services-complex-projects__subtext {
+    text-align: right;
+}
+
 
 .footer {
     width: 1440px;
