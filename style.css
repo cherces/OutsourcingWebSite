@@ -11,7 +11,6 @@ body {
     height: 100%;
     margin: 0 auto;
     font-size: 16px;
-    background-color: #727272;
 }
 
 
@@ -20,7 +19,6 @@ body {
     width: 1440px;
     height: 8272px;
     margin: 0 auto;
-    background-color: blue;
 }
 
 
@@ -30,7 +28,6 @@ body {
     padding: 105px 182px 182px;
     width: 1440px;
     height: 820px;
-    background-color: aqua;
 }
 
 
@@ -114,14 +111,12 @@ body {
     margin: 0 auto;
     width: 1440px;
     height: 7238px;
-    background-color: darkcyan;
 }
 
 
 .page__services {
     width: 1440px;
     height: 2668px;
-    background-color: lightcyan;
 }
 .services__container {
     position: relative;
@@ -193,7 +188,6 @@ body {
     font-size: 18px;
     line-height: 23px;
     color: #FFFFFF;
-    background-color: #FA5D7C;
 }
 .services__item__subtext {
     width: 540px;
@@ -297,7 +291,6 @@ body {
     width: 1440px;
     height: 727px;
     background-image: url("/images/background.svg");
-    background-color: honeydew;
 }
 .codex__container {
     width: 1440px;
@@ -317,7 +310,6 @@ body {
     font-weight: 900;
     font-size: 42px;
     line-height: 50px;
-    background-color: darkkhaki;
 }
 .codex__slogan {
     height: 230px;
@@ -329,35 +321,35 @@ body {
     line-height: 28px;
 
     color: #000000;
-    background-color: cadetblue;
 }
 .codex__points__body {
     width: 1440px;
     height: 337px;
     display: flex;
     align-items: flex-start;
-    background-color: khaki;
 }
+
 .codex__previous__point {
-    width: 584px;
+    width: 585px;
     height: 200px;
-    margin-top: 145px;
+    margin-top: 69px;
     margin-right: 54px;
-    margin-left: -435px;
-    background-color: rosybrown;
+    margin-left: -391px;
+    padding: 44px 78px 76px 75px;
 }
 .codex__previous__text {
     width: 435px;
-    height: 65px;
-    margin: 44px 78px 76px 75px;
+    height: 100px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 35px;
     text-align: center;
+
 }
 .codex__previous__paragraph {
+    margin-top: 30px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 300;
@@ -366,16 +358,17 @@ body {
 
     color: #6D6D6D;
 }
-.codex__left__img {
-    margin-top: 233px;
+
+.codex__left__keyboard {
+    margin-top: 155px;
 }
+
 .codex__point {
     width: 800px;
     height: 250px;
-    margin: 35px 54px 12px 54px;
+    margin: 44px 54px 42px 54px;
     padding: 55px 79px 102px 76px;
 
-    background-color: yellowgreen;
 }
 .codex__text {
     width: 645px;
@@ -399,30 +392,31 @@ body {
 
     color: #6D6D6D;
 }
-.codex__right__img {
-    margin-top: 233px;
+
+.codex__right__keyboard {
+    margin-top: 155px;
 }
 
 .codex__next__point {
     width: 584px;
     height: 200px;
-    margin-top: 145px;
-    margin-left: 54px;
-    margin-right: 430px;
-    background-color: rosybrown;
+    margin-top: 69px;
+    margin-left: 38px;
+    padding: 44px 78px 76px 75px;
 }
 .codex__next__text {
     width: 435px;
-    height: 65px;
-    margin: 44px 78px 76px 75px;
+    height: 100px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 35px;
     text-align: center;
+
 }
 .codex__next__paragraph {
+    margin-top: 30px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 300;
@@ -431,6 +425,7 @@ body {
 
     color: #6D6D6D;
 }
+
 
 .footer {
     width: 1440px;
