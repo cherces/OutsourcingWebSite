@@ -445,6 +445,7 @@ body {
 .page__portfolio {
     width: 1440px;
     height: 1160px;
+    background-color: green;
 }
 .portfolio__container {
     width: 1440px;
@@ -457,7 +458,7 @@ body {
 .portfolio__title {
     width: 1440px;
     height: 175px;
-    padding: 98px 605px 26px 603px;
+    padding: 96px 605px 26px 603px;
 
     font-family: Lato;
     font-style: normal;
@@ -467,7 +468,7 @@ body {
 }
 .portfolio__slogan {
     width: 1440px;
-    height: 125px;
+    height: 120px;
     padding-left: 321px;
     padding-right: 321px;
 
@@ -505,14 +506,15 @@ body {
 .portfolio__case__text-content__level {
     width: 580px;
     height: 289px;
-
-    margin-right: 60px;
+    margin-left: 60px;
 
     background-color: cornflowerblue;
 }
 .portfolio__case__title {
     width: 580px;
     height: 40px;
+
+    margin-top: 56px;
 
     font-family: Lato;
     font-style: normal;
@@ -525,18 +527,29 @@ body {
     width: 580px;
     height: 16px;
 
+    margin-top: 7px;
+
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
     font-variant: small-caps;
-
+    color: #FA5D7C;
     background-color: yellow;
+}
+.portfolio__case__subtitle::after {
+    content: "";
+    display: block;
+    width: 120px;
+    padding-top: 7px;
+    border-bottom: 2px solid #FA5D7C;
 }
 .portfolio__case__text {
     width: 580px;
     height: 75px;
+
+    margin-top: 21px;
 
     font-family: Source Sans Pro;
     font-style: normal;
@@ -550,7 +563,8 @@ body {
     width: 414px;
     height: 57px;
 
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 45px;
+    margin-left: 77px;
 }
 .portfolio__case__watch__keys__button button {
     width: 414px;
@@ -562,8 +576,32 @@ body {
     line-height: 23px;
     color: #FFFFFF;
     background-color: #FA5D7C;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.portfolio__button {
+    padding: 112px 597px 43px;
+}
+.portfolio__button button {
+    width: 246px;
+    height: 57px;
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    text-align: center;
+
+    color: #FA5D7C;
+
+    background: #FFFFFF;
+    border: 2px solid #FA5D7C;
 }
 
+.level__case {
+    margin-top: 73px;
+}
 .level__img {
     order: 1;
 }
@@ -574,18 +612,6 @@ body {
 .xim4__case {
      background-color: bisque;
  }
-
-
-
-
-.portfolio__button {
-    width: 1440px;
-    height: 57px;
-    padding-left: 597px;
-    padding-right: 597px;
-
-    background-color: bisque;
-}
 
 
 .footer {
