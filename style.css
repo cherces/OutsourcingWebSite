@@ -868,6 +868,175 @@ body {
 }
 
 
+.page__contacts {
+    width: 1440px;
+    height: 778px;
+}
+.contacts__container {
+    width: 1440px;
+    height: 778px;
+}
+.contacts__body {
+    width: 1440px;
+    height: 778px;
+
+    background-color: coral;
+}
+.contacts__title {
+    width: 1440px;
+    height: 180px;
+
+    padding: 77px 621px 50px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 50px;
+    background-color: #6D6D6D;
+}
+.contacts__input__body {
+    width: 796px;
+    height: 496px;
+
+    margin-left: 323px;
+    margin-right: 322px;
+
+    padding-left: 118px;
+    padding-right: 118px;
+    padding-top: 38px;
+    /*
+    background: #FFFFFF;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    */
+    background-color: greenyellow;
+}
+.contacts__slogan {
+    height: 48px;
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    background-color: rosybrown;
+}
+.contacts__entry__field {
+    width: 509px;
+}
+.contacts__input__name {
+    width: 560px;
+    height: 51px;
+
+    margin-top: 33px;
+
+    display: flex;
+}
+.contacts__input__name__image {
+    width: 51px;
+    height: 51px;
+
+    line-height: 51px;
+    text-align: center;
+
+    background: #FA5D7C;
+}
+.input__image img {
+    width: 19px;
+    height: 21px;
+}
+.contacts__input__email {
+    width: 560px;
+    height: 51px;
+
+    margin-top: 18px;
+
+    display: flex;
+}
+.contacts__input__email__image {
+    width: 51px;
+    height: 51px;
+
+    line-height: 51px;
+    text-align: center;
+
+    background: #FA5D7C;
+}
+.contacts__input__email__image img {
+    width: 19px;
+    height: 19px;
+}
+.contacts__input__message {
+    width: 560px;
+    height: 167px;
+
+    margin-top: 18px;
+
+    display: flex;
+}
+.contacts__input__message__image {
+    width: 51px;
+    height: 167px;
+
+    line-height: 167px;
+    text-align: center;
+
+    background: #FA5D7C;
+}
+.contacts__input__message__image img {
+    width: 20px;
+    height: 19px;
+}
+.contacts__input__footer{
+    height: 57px;
+
+    margin-top: 42px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__input__footer__social-networks {
+    display: flex;
+    justify-content: flex-start;
+    gap: 31px;
+}
+.contacts__input__footer__vk {
+    width: 59px;
+    height: 59px;
+
+    line-height: 59px;
+    text-align: center;
+    border-radius: 100px;
+
+    background: #4D7198;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.contacts__input__footer__vk img {
+    width: 32px;
+    height: 18px;
+}
+.contacts__input__footer__mail {
+    width: 59px;
+    height: 59px;
+
+    line-height: 59px;
+    text-align: center;
+    border-radius: 100px;
+
+    background: #B2E0FF;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.contacts__input__footer__mail img {
+    width: 31px;
+    height: 22px;
+}
+.contacts__input__footer__send__button {
+
+}
+.contacts__input__footer__send__button button {
+
+}
+
 .footer {
     width: 1440px;
     height: 216px;
