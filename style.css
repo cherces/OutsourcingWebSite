@@ -600,18 +600,118 @@ body {
 }
 
 .level__case {
-    margin-top: 73px;
-}
-.level__img {
-    order: 1;
-}
-
-.level__case {
     background-color: gold;
 }
 .xim4__case {
      background-color: bisque;
  }
+
+
+.page__tools {
+    width: 1440px;
+    height: 437px;
+}
+.tools__container {
+    width: 1440px;
+    height: 437px;
+}
+.tools__body {
+    width: 1440px;
+    height: 437px;
+    background-color: greenyellow;
+}
+.tools__title {
+    width: 1440px;
+    height: 119px;
+
+    padding: 68px 604px 29px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 50px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background-color: #6D6D6D;
+}
+.tools__slogan {
+    width: 1440px;
+    height: 107px;
+
+    padding-top: 29px;
+    padding-left: 322px;
+    padding-right: 320px;
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+
+    background-color: khaki;
+}
+.framework {
+    display: flex;
+    width: 1440px;
+    height: 140px;
+
+    padding-left: 249px;
+    padding-right: 247px;
+
+    background-color: bisque;
+}
+.framework__left__img {
+    margin-top: 52px;
+}
+.framework__img {
+    width: 198px;
+    height: 135px;
+    margin-left: 79px;
+}
+.framework__img img {
+    width: 198px;
+    height: 135px;
+}
+.framework__text-content {
+    margin-left: 53px;
+}
+.framework__title {
+    width: 522px;
+    height: 41px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+}
+.framework__title::after {
+    content: "";
+    display: block;
+    width: 285px;
+    padding-top: 7px;
+    border-bottom: 2px solid #FA5D7C;
+}
+.framework__text {
+    width: 522px;
+    height: 67px;
+
+    margin-top: 16px;
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.framework__right__img {
+    margin-top: 52px;
+    margin-left: 54px;
+}
 
 
 .footer {
