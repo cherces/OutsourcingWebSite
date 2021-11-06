@@ -27,87 +27,119 @@ body {
 
 
 .header {
-    position: relative;
-    margin: 0 auto;
-    padding: 105px 182px 182px;
     width: 1440px;
     height: 820px;
+
+    margin: 0 auto;
+    padding-top: 100px;
+
     background-color: aqua;
 }
 
 
 .header__title__container {
-    width: 1076px;
-    height: 155px;
+    width: 1440px;
+    height: 160px;
+
+    padding-left: 180px;
+    padding-right: 180px;
+
+    background-color: #4D7198;
 }
-.header__title {
-     display: flex;
-     width: 1076px;
-     height: 155px;
-     align-items: flex-start;
-     justify-content: space-between;
- }
-.header__main-block__container {
-    margin-top: 80px;
-    width: 990px;
-    height: 310px;
-}
-.header__main-block {
+.header__title__body {
     display: flex;
-    width: 990px;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1080px;
+    height: 50px;
+
+    background-color: khaki;
+}
+.header__title__body__social__icons {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    width: 100px;
+
+    background-color: greenyellow;
+}
+.header__main-block__container {
+    width: 1440px;
     height: 315px;
-    align-items: flex-start;
+
+    margin-top: 80px;
+
+    padding-left: 180px;
+    padding-right: 180px;
+
+    background-color: greenyellow;
 }
-.main__block__container {
-    width: 675px;
-    height: 310px;
+.header__main-block__body {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1080px;
+    height: 315px;
+
+    padding-right: 90px;
+
+    background-color: burlywood;
 }
-.main-block__title {
-    width: 665px;
+.header__main-block__body__title {
     height: 70px;
+
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
     line-height: 60px;
 }
-.main-block__text {
-    width: 670px;
+.header__main-block__body__title::after {
+    content: "";
+    display: block;
+    width: 495px;
+    padding-top: 7px;
+    border-bottom: 2px solid #FA5D7C;
+}
+.header__main-block__body__slogan {
     height: 100px;
-    margin-top: 20px;
+
+    margin-top: 15px;
+
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 39px;
 }
-.main-block__button {
-    width: 385px;
-    height: 57px;
+.header__main-block__body__button {
     margin-top: 65px;
 }
-.main-block__button button {
+.header__main-block__body__button button {
     width: 385px;
-    height: 57px;
+    height: 60px;
+
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
+    text-align: center;
+
     color: #FFFFFF;
-    background-color: #FA5D7C;
+    background: #FA5D7C;
 }
-.main-block__hero {
-    width: 200px;
-    height: 200px;
-    margin-left: 110px;
-}
-.header__down {
-    width: 25px;
-    height: 20px;
-    margin-left: 528px;
-    margin-top: 80px;
-    margin-right: 528px;
+.header__down__keyboard {
+    width: 1440px;
+    height: 60px;
+
+    margin-top: 85px;
+
+    text-align: center;
+
+    background-color: darkolivegreen;
 }
 
 
